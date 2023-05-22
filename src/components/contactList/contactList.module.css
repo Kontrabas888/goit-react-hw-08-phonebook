@@ -21,7 +21,7 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__list__item:nth-child(2n + 1) {
-  background-color: gainsboro;
+  background-color: rgb(165, 248, 241);
 }
 
 .contact__style {

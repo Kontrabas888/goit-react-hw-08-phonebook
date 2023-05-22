@@ -1,7 +1,4 @@
 .position {
-  /* position: absolute;
-  left: 90%; */
-  /* margin-left: 52px; */
   position: absolute;
   right: 0;
 }
@@ -14,6 +11,6 @@
 }
 .btn_style:hover,
 .btn_style:focus {
-  color: orange;
+  color: rgb(0, 255, 204);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

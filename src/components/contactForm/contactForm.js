@@ -3,7 +3,6 @@ import { Button } from 'components/Button/Button';
 import css from './contactForm.module.css';
 import { selectTasks } from 'Redux/selectors';
 import { addContact } from 'Redux/operations';
-import { BiUser, BiPhone } from 'react-icons/bi';
 
 export const ContactsForm = () => {
   const dispatch = useDispatch();
@@ -33,7 +32,6 @@ export const ContactsForm = () => {
     <form onSubmit={handleSubmit} className={css.container}>
       <div className={css.margin}>
         <span style={{ position: 'absolute' }}>
-          <BiUser viewBox="-2 -2 24 24" />
         </span>
         <input
           className={css.inputs}
@@ -46,7 +44,6 @@ export const ContactsForm = () => {
       </div>
       <div className={css.margin}>
         <span style={{ position: 'absolute', margin: '2px 2px 2px 1px' }}>
-          <BiPhone viewBox="0 0 22 22" />
         </span>
         <input
           className={css.inputs}

@@ -11,7 +11,7 @@ const UserMenu = lazy(() => import('components/Usermenu/Usermenu'));
 export default function Navigation() {
   const StyledLink = styled(NavLink)`
     &.active {
-      color: orange;
+      color: green;
     }
   `;
   const { isLoggedIn } = useAuth();

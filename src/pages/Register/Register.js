@@ -36,13 +36,12 @@ export default function Register() {
         className={css.inputs}
         type="email"
         name="email"
-        // pattern=".+@globex\.com"
         placeholder="user@ukr.net"
         required
       ></input>
       <label>Password</label>
       <input className={css.inputs} type="password" name="password" required />
-      <Button style={{ padding: '5px 10px' }} type="submit">
+      <Button style={{ padding: '15px 50px' }} type="submit">
         {' '}
         Register
       </Button>
